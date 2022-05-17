@@ -1,0 +1,96 @@
+*,
+::before,
+::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url("img/back.jpg");
+  background-size: cover;
+}
+h4 {
+  text-align: center;
+  font-size: 1.1em;
+}
+
+label {
+  font-size: 22px;
+}
+
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  justify-content: end;
+  width: 80%;
+
+  margin: 0 auto;
+}
+
+.input {
+  display: inline-block;
+  color: antiquewhite;
+  border-radius: 8px;
+  width: 150px;
+  margin: 6px auto;
+  text-align: right;
+  font-family: "BPG Irubaqidze", sans-serif;
+}
+
+.input input {
+  width: 58px;
+  height: 28px;
+  margin: 2px;
+  padding-left: 6px;
+  border-radius: 8px;
+}
+
+.submit {
+  display: inline-block;
+
+  border-radius: 8px;
+
+  margin: 8px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.submit button {
+  padding: 4px 19px;
+  margin: 8px;
+  border-radius: 6px;
+  font-size: 12px;
+  background-size: cover;
+  height: 32px;
+  width: 46px;
+}
+
+.submit button:nth-child(3) {
+  width: auto;
+}
+
+#text {
+  margin: 0 auto;
+  padding: 8px 20px;
+  width: calc(100% - 26px);
+  border-radius: 16px;
+  height: calc(100vh - 92px);
+  overflow: auto;
+  background-color: blanchedalmond;
+  opacity: 0.74;
+}
+
+#tempTextarea {
+  display: block;
+  width: 0;
+  height: 0;
+}
+
+@media only screen and (max-width: 460) {
+  #text {
+
+    height: calc(100vh - 155px);
+
+}
