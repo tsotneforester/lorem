@@ -76,7 +76,7 @@ label {
   padding: 8px 20px;
   width: calc(100% - 34px);
   border-radius: 16px;
-  height: calc(100vh - 124px);
+  height: calc(100vh - 95px);
   overflow: auto;
   background-color: blanchedalmond;
   opacity: 0.74;
@@ -90,7 +90,6 @@ label {
 
 @media only screen and (max-width: 460) {
   #text {
-
     height: calc(100vh - 155px);
-
+  }
 }
