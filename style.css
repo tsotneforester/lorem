@@ -74,9 +74,9 @@ label {
 #text {
   margin: 0 auto;
   padding: 8px 20px;
-  width: calc(100% - 26px);
+  width: calc(100% - 34px);
   border-radius: 16px;
-  height: calc(100vh - 92px);
+  height: calc(100vh - 124px);
   overflow: auto;
   background-color: blanchedalmond;
   opacity: 0.74;
